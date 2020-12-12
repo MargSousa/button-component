@@ -28,7 +28,7 @@ function ButtonList() {
         </div>
         <div className="type">
           <h5>Hover and focus</h5>
-          <Button variant="primary" className="primary-shadow primary-focus">{label}</Button>
+          <Button variant="primary" className="primary-shadow-focus">{label}</Button>
         </div>
         <div className="type">
           <h5>Disabled</h5>
@@ -49,18 +49,20 @@ function ButtonList() {
           <Button variant="outline-primary" id="primary-outline-disabled" disabled="true">{label}</Button>
         </div>
       </div>
-      <div className="group">
-        <div className="type">
-          <h5>Text</h5>
-          <Button variant="text">{label}</Button>
-        </div>
-        <div className="type">
-          <h5>Hover and focus</h5>
-          <Button variant="text" className="text-focus">{label}</Button>
-        </div>
-        <div className="type">
-          <h5>Disabled</h5>
-          <Button variant="text" disabled="true">{label}</Button>
+      <div className="group display-column">
+        <div className="group">
+          <div className="type">
+            <h5>Text</h5>
+            <Button variant="text">{label}</Button>
+          </div>
+          <div className="type">
+            <h5>Hover and focus</h5>
+            <Button variant="text" className="text-focus">{label}</Button>
+          </div>
+          <div className="type">
+            <h5>Disabled</h5>
+            <Button variant="text" disabled="true">{label}</Button>
+          </div>
         </div>
         <div className="type">
           <h5>Sizes</h5>

@@ -1,5 +1,6 @@
 .App {
   padding: 20px 20px 10px 20px;
+  min-height: 100vh;
 }
 
 .title {

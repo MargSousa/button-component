@@ -1,0 +1,133 @@
+
+.group {
+  display: flex;
+}
+
+.type {
+  margin: 20px 30px 0px 20px;
+}
+
+.type h5 {
+  font-size: 16px;
+  color: rgb(85, 85, 85);
+}
+
+/* ALL BUTTONS */
+
+.type button {
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+/* PRIMARY */
+
+.btn-primary,
+.btn-primary:disabled,
+.btn-primary:disabled:hover {
+  background-color: rgb(30, 81, 220);
+  border: solid 1px rgb(30, 81, 220);
+}
+
+.btn-primary:hover {
+  background-color: rgb(28, 55, 128);
+  border: solid 1px rgb(28, 55, 128);
+}
+
+.primary-focus {
+  color: white;
+  background-color: rgb(28, 55, 128);
+  border-color: rgb(28, 55, 128);
+  box-shadow: 0 0 0 0.2rem rgba(38,143,255,.5);
+}
+
+/* SHADOW */ 
+
+.primary-shadow {
+  box-shadow: 0px 5px 15px rgba(34, 34, 34, 0.801);
+}
+
+/* OUTLINE */
+
+.btn-outline-primary,
+.btn-outline-primary:disabled,
+.btn-outline-primary:disabled:hover {
+  color: rgb(30, 81, 220);
+  border: solid 1px rgb(30, 81, 220);
+}
+
+#primary-outline-disabled:hover {
+  background-color: transparent !important;
+}
+
+.btn-outline-primary:hover {
+  background-color: rgb(28, 55, 128);
+  border: solid 1px rgb(28, 55, 128);
+}
+
+.primary-outline-focus {
+  color: white;
+  background-color: rgb(28, 55, 128);
+  border-color: rgb(28, 55, 128);
+  box-shadow: 0 0 0 0.2rem rgba(38,143,255,.5);
+}
+
+/* TEXT */
+
+.text-focus {
+  box-shadow: 0 0 0 0.2rem rgba(0,123,255,.25)
+}
+
+/* SECONDARY */
+
+.btn-secondary,
+.btn-secondary:disabled {
+  background-color: rgb(104, 104, 104);
+  border: solid 1px rgb(104, 104, 104);
+}
+
+.btn-secondary:hover {
+  background-color: grey;
+  border: solid 1px grey;
+}
+
+.btn-secondary:disabled:hover {
+  background-color: rgb(104, 104, 104);
+  border: solid 1px rgb(104, 104, 104);
+}
+
+.secondary-focus {
+  color: white;
+  background-color: grey;
+  border-color: grey;
+  box-shadow: 0 0 0 0.2rem rgba(130,138,145,.5);
+}
+
+.secondary-outline-focus {
+  color: white;
+  background-color: #6c757d;
+  border-color: #6c757d;
+  box-shadow: 0 0 0 0.2rem rgba(130,138,145,.5);
+}
+
+
+/* OTHER COLORS */
+
+.danger-focus {
+  background-color: #c82333;
+  border-color: #bd2130;
+  box-shadow: 0 0 0 0.2rem rgba(225,83,97,.5);
+}
+
+.warning-focus {
+  background-color: #e0a800;
+  border-color: #d39e00;
+  box-shadow: 0 0 0 0.2rem rgba(222,170,12,.5);
+}
+
+.warning-outline-focus {
+  color: black;
+  background-color: #ffc107;
+  border-color: #ffc107;
+  box-shadow: 0 0 0 0.2rem rgba(222,170,12,.5);
+}
+
